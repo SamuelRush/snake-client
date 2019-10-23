@@ -19,6 +19,15 @@ const handleUserInput = function() { //if control c is entered, exit
     if (data === "d"){
       connection.write("Move: right");
     }
+    if (data === "z"){
+      connection.write("Say: GO GO GO");
+    }
+    if (data === "x"){
+      connection.write("Say: Gonna get ya");
+    }
+    if (data === "c"){
+      connection.write("Say: Uh oh");
+    }
   });
 }
 
